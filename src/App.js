@@ -1,15 +1,24 @@
-import './App.css';
+import "./App.css";
+import "./Header.css";
 
 import Header from "./components/Header";
 import Main from "./components/Main";
-import Footer from './components/Footer';
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
+      <div className="Header">
+        {" "}
+        <Header />
+      </div>
+      <div>
+        {" "}
+        <Main />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
